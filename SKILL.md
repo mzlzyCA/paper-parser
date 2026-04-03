@@ -1,7 +1,7 @@
 ---
 slug: paper-parser
 name: Paper Parser
-version: 0.2.0
+version: 0.2.1
 description: >
   Parse academic papers and research articles from PDF into structured sections — abstract, introduction, methodology, results, references. Academic paper parser, research paper extractor, scientific article parser, journal paper reader, scholarly PDF parser, academic document analyzer, paper section extractor, citation extractor, research PDF reader, thesis parser, conference paper extractor, arXiv paper parser.
 
