@@ -1,36 +1,29 @@
 ---
-name: paper-parser
-displayName: Paper Parser
+slug: paper-parser
+name: Paper Parser
+version: 0.2.0
 description: >
-  Parse academic papers and research articles from PDF into structured sections. Academic paper extractor, research paper parser, scientific article analyzer, journal paper reader, conference paper processor, scholarly document parser, thesis extractor, arxiv paper parser, publication content extractor, research PDF analyzer, academic literature processor.
+  Parse academic papers and research articles from PDF into structured sections — abstract, introduction, methodology, results, references. Academic paper parser, research paper extractor, scientific article parser, journal paper reader, scholarly PDF parser, academic document analyzer, paper section extractor, citation extractor, research PDF reader, thesis parser, conference paper extractor, arXiv paper parser.
 
-  Use when asked to 'parse this research paper', 'extract sections from an academic PDF', 'analyze this scientific paper', 'read this journal article', 'break down this arxiv paper', 'I need to extract the abstract and references', 'pull out the methodology section', 'summarize this academic paper structure', 'parse thesis PDF'.
+  Use when asked to 'parse an academic paper', 'extract sections from a research PDF', 'read a journal article', 'analyze a scientific paper', 'pull references from a paper', 'summarize a research paper structure'. Solves the problem of academic PDFs having complex multi-column layouts, equations, figures, and citation formats that break standard PDF parsers.
 
-  Solves the problem of academic papers having complex multi-column layouts, mathematical formulas, citations, figures, and specialized formatting that generic PDF parsers handle poorly. Correctly identifies abstract, introduction, methodology, results, discussion, references, and supplementary sections.
+  论文解析, 学术论文提取, 科研文献解析, 期刊论文解析, 学术PDF提取, 研究论文结构化, 参考文献提取, 摘要提取.
 
-  论文解析, 学术论文提取, 科研文献解析, 研究论文分析, 学术PDF解析, 期刊文章提取, 会议论文处理, 毕业论文解析.
-
-  Powered by MinerU document processing engine optimized for academic paper layouts, formula recognition, citation extraction, and multi-column parsing.
+  Powered by MinerU document parsing engine optimized for academic document layouts including two-column formats, LaTeX-rendered equations, figure captions, table extraction, and bibliography parsing. Ideal for researchers, graduate students, literature review automation, citation analysis, and knowledge base construction. Handles papers from arXiv, IEEE, ACM, Springer, Elsevier, and all major publishers.
 tags:
-  - paper
   - academic
+  - paper
   - research
-  - parser
   - pdf
+  - parser
   - scientific
-  - arxiv
-  - journal
-  - thesis
   - citations
+  - references
   - mineru
   - literature
-  - scholarly
+  - journal
+  - arxiv
+  - thesis
 ---
 
-# Paper Parser
-
-Parse academic papers and research articles from PDF using the mineru tool. Extracts structured sections including abstract, methodology, results, references, and formulas.
-
-## Usage
-
-Use the mineru tool to process the academic PDF and extract structured content with proper section identification, citation parsing, and formula recognition.
+Use the mineru tool to parse the provided academic paper PDF. Extract and structure all sections including title, authors, abstract, introduction, methodology, results, discussion, conclusion, and references. Preserve equations, figure captions, table content, and citation formats. Output as structured Markdown with clear section headings.
